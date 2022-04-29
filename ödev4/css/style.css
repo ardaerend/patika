@@ -1,0 +1,108 @@
+:root{
+ --aqua:#00DFEF;
+ --pink:#FF0D6D;
+ --blue:#00347A;
+ --darkblue:#001049;
+ --black:#000B1F;
+ --white:#FFFFFF;
+ --gray:#52656B;
+ font-family: "Questrial",sans-serif;
+}
+
+* { 
+ margin: 0; 
+ padding: 0;
+ }
+
+body {
+ margin: 0;
+ padding: 0;
+ font-family: "Questrial",sans-serif;
+ background-color: var(--black);
+ color:var(--pink);
+}
+
+nav ul{
+ padding:1.5rem 0 1.5rem 0;
+ flex-flow:wrap;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ font-size:1.5rem;
+ gap:1.5rem;
+}
+
+nav a{
+ color: var(--pink);
+ text-decoration: none;
+}
+
+nav a:hover{
+ color:var(--aqua)
+}
+nav li:nth-child(1){
+ padding-left:0;
+ flex-basis:53%;
+
+}
+ul {
+ list-style-type: none;
+}
+
+.aboutme{
+ padding:9rem 1.5rem 1.5rem 4.5rem;
+ color:var(--white);
+ font-size: 3rem;
+}
+
+li .resume{
+ padding:0.5rem;
+ background-color:var(--pink);
+ color:var(--aqua);
+ border-radius: 10px;
+}
+
+li .resume:hover{
+ background-color:var(--aqua);
+ color:var(--pink);
+}
+.aboutme{
+ padding-top:10rem;
+ padding-bottom:30rem;
+}
+.aboutme p{
+margin-bottom:0.5rem;
+}
+
+#education{
+ margin-top:10rem;
+ padding-left: 4.5rem;
+ padding-bottom: 100rem;
+}
+table{
+ gap: 2rem;
+}
+
+hr{
+ border-radius: 5px;
+ border:0px;
+ width: 33.5rem;
+ height:0.1rem;
+ background: rgb(0,223,239);
+ background: linear-gradient(90deg, rgba(0,223,239,1) 0%, rgba(255,13,109,1) 100%);
+}
+
+.icons i{
+ margin:1rem 5.5rem 0 0;
+ font-size:2rem;
+ color:white;
+}
+.icons i:hover{
+ color: rgb(0,223,239);
+ color: linear-gradient(90deg, rgba(0,223,239,1) 0%, rgba(255,13,109,1) 100%);
+}
+
+#education{
+ font-size: 2rem;
+}
